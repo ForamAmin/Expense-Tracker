@@ -1,57 +1,87 @@
-/* Here navd is a flex container and nav is the flex items , thus to apply flex property on a tag then take nav as a flex container */
-.navb{
-    
-    background-color:beige;
+.navb {
+    background-color: beige;
     height: 30px;
     width: 100%;
-
     display: flex;
-    flex-direction: row; /* default value */
+    flex-direction: row; 
     justify-content: space-evenly;
-
-
 }
-.navl{
+
+.navl {
     color: black;
     text-decoration: none;
     border: 1px solid black;
     border-radius: 9px;
     padding: 6px;
     font: bold 16px Arial;
-
-
 }
-.navl:hover{
+
+.navl:hover {
     background-color: black;
     color: white;
 }
-.main1{
+
+.main1 {
     display: flex;
     justify-content: center;
+    background-color: aliceblue;
 }
 
-.div1{
-   background-color: aliceblue;
-
-}
-.p{
+.p1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-
-
 }
-.div2{
+.div2 {
     display: flex;
     flex-direction: column;
-    
-
-
+    justify-content: space-between;
 }
-.b1{
-    background-color: rgb(237, 247, 250);
+
+.b1 {
+    background-color: rgb(77, 252, 176);
+    height: 45px;
+    width: 145px;
     padding: 2px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 5px;
     font: bold 16px Arial;
+}
+.bd {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.total {
+    height: 50px;
+    border: 2px solid rgb(211, 13, 13);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align4 {
+    border: 2px solid rgb(31, 31, 243);
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.align4 .bd {
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.align4 .b1 {
+    width: 45%; 
+}
+
+.align4 .total {
+    margin-top: 0px; 
+    margin-bottom: 15px;
 }
