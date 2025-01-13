@@ -18,22 +18,30 @@
 <div class="main1">
 <div class="main">
     <div class="div1">
-        <h1>Expense Tracker</h1>
-        <p class="p">Track your expenses .. </p> 
+        <h1 id="et">Expense Tracker <span style="display: none;">Test text</span></h1>
+        <p class="p1">Track your expenses .. </p> 
 
     </div>
     <div class="div2">
         <form action="get" class="f">
             Enter name: 
-            <input type="text">
+            <input type="text" id="inputn">
             Enter value:  
-            <input type="text">
+            <input type="text" id="inputv">
         </form>
-        <button class="b1">Add</button>
-        <button class="b1">Show </button>
+        <div class="align4">
+        <div class="bd">
+        <button class="b1" id="b21">Add</button>
+        <button class="b1" id="b22">Show </button> <! Overwritten by js>
     </div>
+    <button class="b1" id="b23">You spend : </button>
+    <div class="total"></div>
 </div>
+    </div>
+
 
 </div>
+<script src="script.js"></script>
+
 </body>
 </html>
