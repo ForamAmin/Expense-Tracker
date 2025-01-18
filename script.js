@@ -83,5 +83,23 @@ console.log(totalvalue);
 totalvalue.style.textAlign = "center";
 totalvalue.style.fontSize = "18px";
 
+//SETTIMEOUT FUNCTION.....
+let r=document.getElementById("et2")
+
+const st =setTimeout(rem,10000)
+function rem(){
+        r.innerText="(Enter Expenses !..)"
+        r.style.display='inline'
+        r.style.fontFamily='Times new roman'
+        r.style.fontSize='20px'
+}
+
+
+button1.addEventListener('click',function(){
+        clearTimeout(st)
+        r.innerText=''
+        console.log("Stopped/added");
+        
+})
 
 
